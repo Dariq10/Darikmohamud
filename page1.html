@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="png" href="/profile-pic.png">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>ultime web</title>
+</head>
+
+<body>
+   
+<nav>
+      <input type="checkbox" name="" id="sidebar-active" />
+      <label for="sidebar-active" class="open-sidebar-button">
+         <?xml version="1.0" encoding="utf-8"?>
+
+         <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+         <svg width="24px" height="24px" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <g id="Menu / Menu_Alt_05">
+               <path id="Vector" d="M5 17H13M5 12H19M11 7H19" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+         </svg>
+      </label>
+      <label id="overlay" for="sidebar-active"></label>
+      <div class="links-container">
+         <label for="sidebar-active" class="close-sidebar-button">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+               <g clip-path="url(#clip0_429_11083)">
+                  <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+               </g>
+               <defs>
+                  <clipPath id="clip0_429_11083">
+                     <rect width="24" height="24" fill="#FFFFFF" />
+                  </clipPath>
+               </defs>
+            </svg>
+         </label>
+
+         <a href="/page1.html" class="home-link">Home</a>
+         <a href="#">About</a>
+         <a href="#grid-area">courses</a>
+         <a href="#">Blog</a>
+         <a href="/signup.html">Signup</a>
+
+      </div>
+      <h2 class="dm">DariqMMD</h2>
+   </nav>
+   <div class="intro">
+      <div class="intro-text">
+         <h2>Welcome to our website</h2>
+         <p>minim voluptate ut eiusmod nostrud nulla tempor minim ut pariatur Lorem ea eiusmod ullamco voluptate duis aliqua consectetur nostrud labore ipsum non ipsum irure sunt laboris officia ipsum consectetur minim in</p>
+         <button type="submit">Get Started</button>
+      </div>
+      <img src="/profile-pic.png" alt="" width="240" height="auto">
+   </div>
+   <div class="main">
+      <h1>Spotlight courses</h1>
+      <hr>
+      <section class="main-content">
+         <div class="html">
+            <img src="/css3.svg" alt=""  />
+            <p class="html-p">Full css course <br /> Beginner to professional</p>
+         </div>
+         <div class="html">
+            <img src="/css3.svg" alt=""  />
+            <p class="html-p">Full css course <br /> Beginner to professional</p>
+         </div>
+         <div class="html">
+   <img src="/css3.svg" alt="" />
+   <p class="html-p">Full css course <br /> Beginner to professional</p>
+</div>
+<div class="html">
+   <img src="/css3.svg" alt="" />
+   <p class="html-p">Full css course <br /> Beginner to professional</p>
+</div>
+<div class="html">
+   <img src="/css3.svg" alt="" />
+   <p class="html-p">Full css course <br /> Beginner to professional</p>
+</div>
+      </section>
+   </div>
+   <footer>
+      <section class="Navigations">
+         <h3>Navigations</h3>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Signup</a></li>
+            <li><a href="#">Login</a></li>
+         </ul>
+      </section>
+      
+      <section class="media">
+         <h3>Our media</h3>
+         <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">WhatsApp</a></li>
+         </ul>
+      </section>
+      <section class="ourservices">
+         <h3>Our services</h3>
+         <ul>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Api</a></li>
+            <li><a href="#">Hacking</a></li>
+            <li><a href="#">Seo</a></li>
+         </ul>
+      </section>
+      <section class="FAQ">
+         <h3>frequently asked questions (FAQ)</h3>
+         <ol>
+            <li><a href="#">Why the web is slow</a></li>
+            <li><a href="#">why the links are fake</a></li>
+            <li><a href="#">why most of the people saying why</a></li>
+            <li><a href="#">why this web loading slowly</a></li>
+            <li><a href="#">why the Internet is poor</a></li>
+            <li><a href="#">why the information is dynamic</a></li>
+            <li><a href="#">why my informations are storing</a></li>
+            <li><a href="#">why this site forces me to allow cookies</a></li>
+            
+         </ol>
+      </section>
+   </footer>
+   <script>
+      function showSidebar() {
+         const sidebar = document.querySelector('.sidebar')
+         sidebar.style.display = ('flex')
+      }
+      
+      function hideSidebar() {
+         const sidebar = document.querySelector('.sidebar')
+         sidebar.style.display = ('none');
+      }
+   </script>
+</body>
+
+</html>

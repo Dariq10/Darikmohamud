@@ -1,0 +1,48 @@
+body {
+    font-size: 15pt;
+    background: #E5E5E5;
+}
+#container{
+  background: white;
+  margin: 50px auto;
+  width: 330px;
+  height: 300px;
+  border-radius: 20px;
+  
+}.h1{
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  background: green;
+  padding: 20px;
+  border-start-end-radius: 20px;
+  border-start-start-radius: 20px;
+  color: #FFFFFF;
+ }
+ label{
+   color: #434343;
+   font-weight: bold;
+   margin-left: 30px;
+   margin-top: 40px;
+ }
+ input{
+margin-left: 30px;
+width: 80%;
+height: 40px;
+border: none;
+border-bottom: 2px solid green;
+outline: none;
+font-family: monospace;
+ }
+ button{
+  margin-left: 110px;
+  margin-top: 40px;
+  padding: 14.5px;
+  border: none;
+  background: green;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  
+ }
